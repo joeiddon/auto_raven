@@ -1,0 +1,16 @@
+{
+    "name": "auto raven",
+    "manifest_version": 2,
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.vle.cam.ac.uk/login/index.php",
+                "https://raven.cam.ac.uk/auth/authenticate.html*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
